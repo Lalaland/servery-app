@@ -4,21 +4,16 @@ An app that makes it simple to manage and view servery menus at Rice
 
 Web Client: AngularJS
 Server: Flask
-Database: MongoDB
+Database: Any SQL compliant database
 
 Local Development Environment
 -----------------------------
 In order to set up a local development environment, you need to install the following:
 * [Python](http://www.python.org/getit/)
 * [Flask](http://flask.pocoo.org/docs/installation/)
-* [MongoDB](http://docs.mongodb.org/manual/installation/)
-* [Flask-PyMongo](http://flask-pymongo.readthedocs.org/en/latest/)
+* [Flask-SQLAlchemy](http://pythonhosted.org/Flask-SQLAlchemy/)
 
-In order to run the application locally. Start the mongo server with the following command at the system shell:
-
-    mongod
-
-Then, start the flask server with the following command under the src folder:
+Start the flask server with the following command under the src folder:
 
     python main.py
 
