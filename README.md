@@ -12,6 +12,8 @@ In order to set up a local development environment, you need to install the foll
 * [Python](http://www.python.org/getit/)
 * [Flask](http://flask.pocoo.org/docs/installation/)
 * [Flask-SQLAlchemy](http://pythonhosted.org/Flask-SQLAlchemy/)
+* [pdfminer](http://www.unixuser.org/~euske/python/pdfminer/index.html)
+(Note that pdfminer can be installed with the command `pip install git+https://github.com/euske/pdfminer`)
 
 Start the flask server with the following command under the src folder:
 
